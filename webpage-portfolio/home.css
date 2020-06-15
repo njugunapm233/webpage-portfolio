@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Rokkitt', serif;
+}
+
+nav a:link{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+
+body{
+    background-image: url("images/city-rain.jpg");;
+    background-color: black;
+}
+
+.body-block{
+    width: 65%;
+    height:980px;
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.left-section{
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 48%;
+    float: left;
+    
+
+}
+
+.rigth-section{
+    background-color: #efefef;
+    color: #000;
+    height: 100%;
+    width: 48%;
+    float: right;
+    
+
+}
+
+.block-0{
+    box-sizing: border-box;
+   width: 100 !important;
+   height: 150px;
+   border: solid #5B6DCD 5px;
+   padding: 5px;
+   
+   }
+
+
+
+.block-1{
+ box-sizing: border-box;
+width: 100;
+border: solid #5B6DCD 5px;
+padding: 5px;
+margin-top: 20px;
+}
+
+.block-2{
+box-sizing: border-box;
+width: 100%;
+border: solid #5B6DCD 5px;
+padding: 5px;
+margin-top: 20px;
+
+}
+
+.block-3{
+box-sizing: border-box;
+width: 100%;
+border: dashed #5B6DCD 2px;
+padding: 5px;
+margin-top: 20px;
+
+}
+
+.block-4{
+box-sizing: border-box;
+width: 100%;
+border: solid #5B6DCD 5px;
+padding: 5px;
+margin-top: 20px;
+
+}
+
+.block-5{
+box-sizing: border-box;
+width: 100%;
+border: dashed #5B6DCD 5px;
+padding: 5px;
+}
+
+footer{
+    
+    color: black;
+    
+}
+
+header{
+    background-color: #5B6DCD;
+    color: white;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+h3{
+    text-align: center;
+}
+
+.Details td{
+    background-color: #F2EBFF;
+}
+
+.intro{
+    float: right; height: 100%; width:48%;   
+}
+
+.intro-picture{
+    text-align: center;
+    float: left;
+    width: 48%;
+}
+
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 65%;
+   }
+
+
+
+/* GROW   */
+
+.grow img{
+    transition: 1s ease;
+    }
+
+    .grow img:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 1s ease;
+        }
+
+
+        /* PROFILE PICTURE EFFECT */
+
+.fadein img{
+    opacity:0.5;
+    transition: 1s ease;
+    }
+    
+    .fadein img:hover{
+    opacity:1;
+    transition: 1s ease;
+    }
+    
+
+    .block-2 
+    a:link {
+        color: red;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: green;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: hotpink;
+      }
+      
+      /* selected link */
+      a:active {
+        color: blue;
+      }
+
